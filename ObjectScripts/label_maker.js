@@ -9,12 +9,12 @@ const myInfo= {
     zip:"12345",
 };
 
-printContact(myInfo);
 
-function printContact(myInfo){
-    console.log(myInfo.name1);
-    console.log(myInfo.address);
-    console.log(myInfo.city);
-    console.log(myInfo.state);
-    console.log(myInfo.zip);
+
+function printContact(Info){
+    console.log(Info.name1);
+    console.log(Info.address);
+    console.log(Info.city , Info.state , Info.zip);
 }
+
+printContact(myInfo);
